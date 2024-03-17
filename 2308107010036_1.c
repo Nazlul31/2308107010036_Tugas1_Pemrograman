@@ -8,7 +8,7 @@ int main(){
   printf("4. Bilangan Octal ke Desimal\n");
 
   printf("Masukkan Konversi yang Anda Inginkan: ");
-  scanf("%d", &pilihan);
+  scanf("%c", &pilihan);
 
   switch(pilihan){
     case 1 : {
